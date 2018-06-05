@@ -1,0 +1,99 @@
+body 
+{ 
+    background:white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+	margin: 0px;
+}
+
+#converter{
+	width: 50%;
+	background:	greenyellow;
+	margin:	auto auto;
+	color:	green;
+	margin-top:7px;
+	padding: 20px;
+	padding-top:0px;
+	font-size:	138%;
+	text-align:	center;
+	border:	3px solid black;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	background: #E2D9D7;
+    border: 2px solid #985141;
+    border-radius: 4px;
+}
+#result {
+	font-family: "Times New Roman", Times, serif;
+	font-size:	138%;
+}
+
+#number_series {
+	width: 50%;
+	background:	skyblue;
+	margin:	auto auto;
+	color:	blue;
+	margin-top:20px;
+	padding: 20px;
+	font-size:	75%;
+	
+	border:	3px solid black;
+}
+
+#series_print {
+	font-family: "Times New Roman", Times, serif;
+	font-size:	138%;
+}
+
+#magic {
+	width: 50%;
+	background:	gray;
+	margin:	auto auto;
+	color:	black;
+	margin-top:20px;
+	padding: 20px;
+	font-size:	138%;
+	padding-top: 0px;
+	border:	3px solid black;
+}
+
+#buttons {
+	width: 100%;
+     -webkit-box-sizing: border-box;
+}
+
+#output {
+	border: 3px dashed green;
+}
+
+#quoteDisplay{
+	width: 50%;
+	background:	skyblue;
+	margin:	auto auto;
+	color:	white;
+	margin-top:50px;
+	padding: 20px;
+	font-size:	178%;
+	text-align:	center;
+	border:	3px solid blue;
+	font-style: italic;
+}
+
+#color_button {
+	margin-left:	72%;
+	margin-top:	5px;
+
+}
+
+.button{
+	height:	30px;
+	width:	30px;
+	border-radius:	30%;
+	border:	2px solid #97746A;
+	margin: 1px;
+}
+

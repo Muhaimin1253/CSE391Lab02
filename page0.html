@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This Is Assignment No 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src = script1.js> </script>
+  </head> 
+
+  <body>
+  
+  <div id = "allcontent">
+			<div id = "quote">
+				<div id = "quoteDisplay">
+					<script>
+						newQuote();
+					</script>
+				</div>
+			</div>
+		
+			<div id = "color_button">
+				<button type="button" class = "button" style="background:red;" onclick="redFunc()"></button>
+				<button type="button" class = "button" style="background:green;" onclick="greenFunc()"></button><br>
+				<button type="button" class = "button" style="background:blue;" onclick="blueFunc()"></button>
+				<button type="button" class = "button" style="background:yellow;" onclick="yellowFunc()"></button>
+			</div>
+			<div id = "converter">
+				<h1>Hero Converter</h1>
+				<span>Convert</span>
+				<input id = "myForm" type="text" name="name" id="txt_name" placeholder="0" size="30" maxlength="70">
+
+				<select id="dropdown"  style="height: 40px;font-size:100%;">
+						<option value="1">select</option>
+						<option value="2">kg to lb</option>
+						<option value="3">lb to kg</option>
+					</select>
+
+				<button style="height: 40px;width: 40px;font-size:100%;" onclick="myFunction()">Go</button>
+				<span id="result"></span>
+			</div>
+		
+		<div id = "number_series">
+			<h1 align="left">Finding Max, Min, Sum, Avg and Reverse order of a series of no: </h1>
+			<span style="font-size:	200%;">Input series of number </span>
+			<input id = "series_p" type="text" name="name" placeholder="1,2,3,..n" onkeyup="seriesFunction()" size="30" maxlength="70">
+			
+			<div id = "series_print">
+				<p id="max"></p>
+				<p id="min" ></p>
+				<p id="sum"></p>
+				<p id="average"></p>
+				<p id="reverse"></p>
+			</div>
+		</div>
+		
+		<div id = "magic">
+			<h1 align="left">Magic!!!</h1>
+			<textarea id='output' style="height:250px;width:100%;"></textarea></br>
+
+			<div id = "buttons" style="padding-top:10px;">
+				<button type="button" onclick="eraseText()">Clear It</button>
+				<button type="button" id = "cap" onclick="capitalize()" value = "Capitalize"style="margin-left: 0%;">Capitalize</button>
+				<button type="button" onclick="sortArray()"style="margin-left: 0%;">Sort</button>
+				<button type="button" onclick="reverseArray()"style="margin-left: 0%;">Reverse</button>
+				<button type="button" onclick="stripBlank()"style="margin-left: 0%;">Strip Blank</button>
+				<button type="button" onclick="addNumbers()"style="margin-left: 0%;">Add Numbers</button>
+				<button type="button" onclick="shuffle()"style="margin-left: 0%;">Shuffle</button>
+				
+			</div>
+		</div>
+		
+	</div>
+  </body>
+</html>
